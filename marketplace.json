@@ -1,0 +1,60 @@
+{
+  "name": "dsh-official-market",
+  "interface": {
+    "displayName": "DSH 官方市场"
+  },
+  "version": 1,
+  "updatedAt": "2026-08-15T00:00:00Z",
+  "skills": [
+    {
+      "name": "dsh-plugin-development",
+      "description": "DSH 插件开发指南",
+      "version": "1.0.0",
+      "bundle": "https://fwh888.github.io/dsh-market/skills/dsh-plugin-development.md"
+    },
+    {
+      "name": "research-report",
+      "description": "研究管线使用指南（knowledge hub）",
+      "version": "1.0.0",
+      "bundle": "https://fwh888.github.io/dsh-market/skills/research-report.md"
+    },
+    {
+      "name": "comprehensive-search",
+      "description": "多源综合搜索使用指南",
+      "version": "1.0.0",
+      "bundle": "https://fwh888.github.io/dsh-market/skills/comprehensive-search.md"
+    },
+    {
+      "name": "obsidian-knowledge",
+      "description": "Obsidian 知识库使用指南",
+      "version": "1.0.0",
+      "bundle": "https://fwh888.github.io/dsh-market/skills/obsidian-knowledge.md"
+    },
+    {
+      "name": "market-management",
+      "description": "技能/插件市场使用指南",
+      "version": "1.0.0",
+      "bundle": "https://fwh888.github.io/dsh-market/skills/market-management.md"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "dsh-mcp-bridge",
+      "description": "Curated MCP server bundle",
+      "category": "integrations",
+      "install": "npm:dsh-mcp-bridge"
+    },
+    {
+      "name": "dsh-humanizer",
+      "description": "中文写作与润色",
+      "category": "writing",
+      "install": "npm:dsh-humanizer"
+    },
+    {
+      "name": "dsh-plugin-hub",
+      "description": "GUI 插件商店",
+      "category": "ui",
+      "install": "npm:dsh-plugin-hub"
+    }
+  ]
+}
